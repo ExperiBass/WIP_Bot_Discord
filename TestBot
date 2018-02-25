@@ -14,4 +14,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login("TROLLLLLLLL");
+client.login("TOKEN_HERE");
