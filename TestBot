@@ -1,0 +1,17 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+client.on("ready", () => {
+  console.log("I'M UP!!! sheesh...");
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("rping")) {
+    message.channel.send("pong!");
+  }
+  if (message.content.startsWith("rinfo")) {
+    message.channel.send("Created by @GingkathFox#3335! **In Development**");
+  }
+});
+
+client.login("NDA2OTUwMjYxNjA1NTMxNjQ4.DXSXZQ.aQQ7avn6QNwX9uVJZVgfKLlS9pw");
