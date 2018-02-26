@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const config = require('./config.json');
 const client = new Discord.Client();
 
 client.on("ready", () => {
@@ -12,6 +13,9 @@ client.on("message", (message) => {
   if (message.content.startsWith("rinfo")) {
     message.channel.send("Created by @GingkathFox#3335! **In Development**");
   }
+  if (message.content.startsWith("welcome")) {
+    message.channel.send("Welcome!");
+  }
 });
 
-client.login("TOKEN_HERE");
+client.login(config.token);
