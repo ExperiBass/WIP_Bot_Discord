@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const config = require('./config.json');
+const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 
 client.on("ready", () => {
@@ -7,10 +7,10 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
+  if (message.content("${prefix}ping")) {
     message.channel.send("pong!");
   }
-  if (message.content.startsWith("info")) {
+  if (message.content("${prefix}info")) {
     message.channel.send("Created by @GingkathFox#3335! **In Development**");
   }
   if (message.content.startsWith("welcome")) {
@@ -18,4 +18,4 @@ client.on("message", (message) => {
   }
 });
 
-client.login(config.token);
+client.login(token);
