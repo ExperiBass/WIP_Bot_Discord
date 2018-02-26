@@ -7,10 +7,10 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("rping")) {
+  if (message.content.startsWith("ping")) {
     message.channel.send("pong!");
   }
-  if (message.content.startsWith("rinfo")) {
+  if (message.content.startsWith("info")) {
     message.channel.send("Created by @GingkathFox#3335! **In Development**");
   }
   if (message.content.startsWith("welcome")) {
