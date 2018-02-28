@@ -11,10 +11,10 @@ client.on("message", (message) => {
     message.channel.send("pong!");
   }
   if (message.content.startsWith(`${prefix}info`)) {
-    message.channel.send("Created by @GingkathFox#3335! **In Development**");
+    message.channel.send("Created by GingkathFox#3335! **In Development**");
   }
-  if (message.content.startsWith("welcome")) {
-    message.channel.send("Welcome!");
+  if (message.content.startsWith("`${prefix}givetoken")) {
+    message.channel.send("Nope! *you Failed!*");
   }
 });
 
