@@ -1,4 +1,4 @@
 {
-    "prefix": "!",
-    "token": "Token_Here"
+    "prefix": "!", //change this if you want a different prefix
+    "token": "Token_Here" //put the token here!
 }
