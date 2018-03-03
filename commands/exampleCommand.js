@@ -1,7 +1,8 @@
+//use this template to create a new command!
 module.exports = {
-       name: `command-name`,
-       description: `command-desc`,
+       name: `command-name`, //what the user would type to activate the command, like "ping"
+       description: `command-desc`, //description of the command
        execute(message, args) {
-             message.channel.send(`command-response`)
+             message.channel.send(`command-response`) //what you want the bot to say when the user uses the command
       },
 };
