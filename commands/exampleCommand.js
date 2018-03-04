@@ -6,3 +6,4 @@ module.exports = {
              message.channel.send(`command-response`) //what you want the bot to say when the user uses the command
       },
 };
+//remeber, ALWAYS add ".js" to the end of the file name, otherwise it wont work!
