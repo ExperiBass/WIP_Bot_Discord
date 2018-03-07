@@ -30,6 +30,7 @@ data.push(`**Cooldown:** ${command.cooldown || 3} second(s)`);
 message.author.send(data, { split: true })
     .then(() => {
         if (message.channel.type !== 'dm') {
+            message.react("⭐");
             message.channel.send('I\'ve sent you a DM with all my commands!');
         }
     })
