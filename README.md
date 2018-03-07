@@ -7,4 +7,4 @@ Linux? Use ```npm install --save discord.js```
 
 Run this using ```node TestBot.js```
 
-Thanks to @poley roido for the testing!
+Thanks to @poleroyd for the testing!
