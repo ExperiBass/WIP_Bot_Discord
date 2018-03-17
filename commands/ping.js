@@ -3,6 +3,6 @@ module.exports = {
     description: 'Ping!',
     execute(message, args) {
        console.log("Ping was used!");
-        message.channel.send("Ping?").then(m => m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API latency is ${Math.trunc(client.ping)}ms!`));
+        message.channel.send("Pong! Getting latency...").then(m => m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API latency is ${Math.trunc(client.ping)}ms!`));
     },
 };
