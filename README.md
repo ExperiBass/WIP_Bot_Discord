@@ -5,6 +5,7 @@ Install discord.js by using ```npm install discord.io winston --save``` in the C
 
 Linux? Use ```npm install --save discord.js```
 
+On Windows, you also need to run ```npm install discord.js```. 
 Run this using ```node TestBot.js```
 
 Thanks to @poleroyd for the testing!
