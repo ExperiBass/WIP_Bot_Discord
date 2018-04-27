@@ -4,8 +4,10 @@ var Nickname;
 var randNum = Math.floor(Math.random)
 // end defining variables, begin fallback
 if (Nickname.length > 30) {
-Nickname = 'Over 30!'}
-// Eld fallback, begin long if-else chain
+    Nickname = 'Over 30!'
+    MessageChannel.channel.send('Uh oh, the nickname is over 30 characters! /nPlease tell `GingkathFox#3335` about this and send this number:' + randNum)
+}
+// End fallback, begin long if-else chain
 if (randNum == 0.01){
     Nickname = 'REEEE!'}
 else if (randNum == 0.02)  {
@@ -20,7 +22,7 @@ else if (randNum == 0.04)  {
 else if (randNum == 0.05)  {
     Nickname = 'Welp. Yer Dead.'   
 }
-else if (randInt == 0.06)  {
+else if (randNum == 0.06)  {
     Nickname = 'Halp!'                     
 }
 else if (randNum == 0.07)   {
@@ -164,6 +166,145 @@ else if (randNum == 0.52) {
 else if (randNum == 0.53) {
     Nickname = 'Fren, Foite Meh'
 }
-// 53, testing now
-return Nickname;
+else if (randNum == 0.54) {
+    Nickname = 'REEE!'
 }
+else if (randNum == 0.55) {
+    Nickname = '$' + randNum + 'k!'
+}
+else if (randNum == 0.56) {
+    Nickname = 'LMMS'
+}
+else if (randNum == 0.57) {
+    Nickname = 'stop.'
+}
+else if (randNum == 0.58) {
+    Nickname = 'prefix?'
+}
+else if (randNum == 0.59) {
+    Nickname = 'xXpythonXx'
+}
+else if (randNick == 0.60) {
+    Nickname = 'Dart Gun!!!'
+}
+else if (randNum == 0.61) {
+    Nickname = '._._._._.'
+}else if (randNum == 0.62) {
+    Nickname = '.-.-.-.-.'
+}
+else if (randNum == 0.63) {
+    Nickname = 'Seiko!'
+}
+else if (randNum == 0.64) {
+    Nickname = 'I have ' + randNum + 'Moniez!'
+}
+else if (randNum == 0.64) {
+    Nickname = 'Catan!'
+}
+else if (randNum == 0.65) {
+    Nickname = 'ioB'
+}
+else if (randNum == 0.66) {
+    Nickname = 'IRIS is Siri'
+}
+else if (randNum == 0.67) {
+    Nickname = 'xoFhtakgniG'
+}
+else if (randNum == 0.68) {
+    Nickname = 'this is torture.'
+}
+else if (randNum == 0.69) {
+    Nickname = 'VOLTRON!'
+}
+else if (randNum == 0.70) {
+    Nickname = 'im dead'
+}
+else if (randNum == 0.71) {
+    Nickname = 'indent by 4 spaces.'
+}
+else if (randNum == 0.72) {
+    Nickname = 'ree. ree? ree! ree?!?'
+}
+else if (randNum == 0.73) {
+    Nickname = 'return Member;'
+}
+else if (randNum == 0.74) {
+    Nickname = 'Nickname = \' Nickname ='
+}
+else if (randNum == 0.75) {
+    Nickname = 'else if?'
+}
+else if (randNum == 0.76) {
+    Nickname = 'Test-Bot'
+}
+else if (randNum == 0.77) {
+    Nickname = 'Cancer.'
+}
+else if (randNum == 0.78) {
+    Nickname = 'K-Pop is awesome!'
+}
+else if (randNum == 0.79) {
+    Nickname = 'BOB THE BUILDER'
+}
+else if (randNum == 0.80) {
+    Nickname = 'ClefdeSoll'
+}
+else if (randNum == 0.81) {
+    Nickname = '18.0'
+}
+else if (randNum == 0.82) {
+    Nickname = 'Areee!'
+}
+else if (randNum == 0.83) {
+    Nickname = 'Ivy!'
+}
+else if (randNum == 0.84) {
+    Nickname = '} Expected. (263, 2)'
+}
+else if (randNum == 0.85) {
+    Nickname = 'Made with VSCode!'
+}
+else if (randNum == 0.86) {
+    Nickname = '4TH WALL!!!'
+}
+else if (randNum == 0.87) {
+    Nickname = 'Cailou'
+}
+else if (randNum == 0.88) {
+    Nickname = '^ has 3 copyright strikes'
+}
+else if (randNum == 0.89) {
+    Nickname = 'JJJ'
+}
+else if (randNum == 0.90) {
+    Nickname = 'GG SCRUBZ'
+}
+else if (randNum == 0.91) {
+    Nickname = '010101110'
+}
+else if (randNum == 0.92) {
+    Nickname = 'randNum'
+}
+else if (randNum == 0.93) {
+    Nickname = 'Im running outta ideas'
+}
+else if (randNum == 0.94) {
+    Nickname = 'whee!'
+}
+else if (randNum == 0.95) {
+    Nickname = 'Queen'
+}
+else if (randNum == 0.96) {
+    Nickname = 'Knight name'
+}
+else if (randNum == 0.97) {
+    Nickname = '̷̧̟̭̺͕̜̦̔̏̊̍ͧ͊́̚̕͞'
+}
+else if (randNum == 0.98) {
+    Nickname = 'ABCD...WXYZ'
+}
+else if (randNum == 0.99) {
+    Nickname = 'The End!'
+}
+return Nickname;
+} // closing Function
