@@ -1,5 +1,5 @@
 module.exports = randNick;
-function randNick(Nickname) {
+function randNick(msg) {
 // defining variables
 var Nickname = '1'
 var randNum = Math.floor(Math.random() * 100) / 100
