@@ -1,8 +1,9 @@
 module.exports = {
-       name: `nickname`,
-       description: `changes your nickname to one of 53 possible names!`,
-       execute(message, args) {
-             randNick()
-             message.channel.send(`Your nickname has been changed to ` + randNick + `!`)
-      },
+      name: `nickname`,
+      description: `Changes your nickname to one of 99 possible names!`,
+      execute(message, args) {
+            var randNick = require('./randNick.js')
+            let newNick = randNick(message)
+            if (newNick) message.channel.send(`Your nickname has been changed to ` + newNick + `!`)
+     },
 };

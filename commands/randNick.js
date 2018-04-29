@@ -1,13 +1,9 @@
-function randNick() {
+module.exports = randNick;
+function randNick(Nickname) {
 // defining variables
-var Nickname;
-var randNum = Math.floor(Math.random)
-// end defining variables, begin fallback
-if (Nickname.length > 30) {
-    Nickname = 'Over 30!'
-    MessageChannel.channel.send('Uh oh, the nickname is over 30 characters! /nPlease tell `GingkathFox#3335` about this and send this number:' + randNum)
-}
-// End fallback, begin long if-else chain
+var Nickname = '1'
+var randNum = Math.floor(Math.random() * 100) / 100
+// end defining variables, begin long if-else chain
 if (randNum == 0.01){
     Nickname = 'REEEE!'}
 else if (randNum == 0.02)  {
@@ -247,7 +243,7 @@ else if (randNum == 0.79) {
     Nickname = 'BOB THE BUILDER'
 }
 else if (randNum == 0.80) {
-    Nickname = 'ClefdeSoll'
+    Nickname = 'Yokokas Quest!'
 }
 else if (randNum == 0.81) {
     Nickname = '18.0'
@@ -306,5 +302,12 @@ else if (randNum == 0.98) {
 else if (randNum == 0.99) {
     Nickname = 'The End!'
 }
+// end if else, begin fallback
+if (Nickname.length > 32) {
+    Nickname = 'Over 32!'
+    message.channel.send('Uh oh, the nickname is over 32 characters! /nPlease tell `GingkathFox#3335` about this and send this number:' + randNum)
+}
+// end fallback
+msg.member.setNickname(Nickname, 'Furry Fam joke :3')
 return Nickname;
-} // closing Function
+}
