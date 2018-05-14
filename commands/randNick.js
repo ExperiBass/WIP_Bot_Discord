@@ -2,7 +2,7 @@ module.exports = randNick
 function randNick(Nickname) {
 // defining variables
 var Nickname;
-var randNum = Math.floor(Math.random() * 100) / 100
+var randNum = Math.floor(Math.random)
 // end defining variables, begin long if-else chain
 if (randNum == 0.01){
     Nickname = 'REEEE!'}
@@ -28,7 +28,7 @@ else if (randNum == 0.08)   {
     Nickname = 'Yokoka!'                
 }
 else if (randNum == 0.09)   {
-    Nickname = 'Iâ€™m Batman!'          
+    Nickname = 'I\’m Batman!'          
 }
 else if (randNum == 0.10)    {
     Nickname = 'I Am Groot!'            
@@ -61,7 +61,7 @@ else if (randNum == 0.19)      {
     Nickname = 'Its only $300!'        
 }
 else if (randNum == 0.20)      {
-    Nickname = 'Iâ€™m with stupid ->'   
+    Nickname = 'I\’m with stupid ->'   
 }
 else if (randNum == 0.21)       {
     Nickname = '<- Is Slep'               

@@ -2,7 +2,7 @@ const { prefix } = require('../config.json');
 module.exports = {
     name: 'help',
     description: 'Commands list!',
-    aliases: `commands`,
+    aliases: ['commands', 'h'],
     execute(message, args) {
         const { commands } = message.client;
 const data = []; 
