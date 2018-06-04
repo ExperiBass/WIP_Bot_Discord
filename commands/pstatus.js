@@ -1,3 +1,4 @@
+// Currently broken, will be fixed
 module.exports = {
     name: 'pstatus',
     description: 'Changes my playing status!',
