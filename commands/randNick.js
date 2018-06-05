@@ -2,7 +2,7 @@ module.exports = randNick
 function randNick(Nickname) {
 // defining variables
 var Nickname;
-var randNum = Math.floor(Math.random)
+var randNum = Math.floor(Math.random() * 100) / 100
 // end defining variables, begin long if-else chain
 if (randNum == 0.01){
     Nickname = 'REEEE!'}
