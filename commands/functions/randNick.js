@@ -303,6 +303,7 @@ else if (randNum == 0.99) {
 if (Nickname.length > 32) {
     Nickname = 'Over 32!'
     message.channel.send('Uh oh, the nickname is over 30 characters! /nPlease tell `GingkathFox#3335` about this and send this number:' + randNum)
+    return;
 }
 //end fallback
 msg.member.setNickname(Nickname, 'Furry Fam joke :3')
